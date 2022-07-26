@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./../src/img/background.png);
+
+}
+
+.doodle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url(./../src/img/doodle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 900;
+}
+
+.platform {
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  background-image: url(./../src/img/platform.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 800;
+}
+
+button {
+  width: 225px;
+  height: 60px;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 8px;
+  font-size: 32px;
+  color: black;
+}
+
+.score {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.bestScore {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 10px;
+}
+
